@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>
-            <img src="my profilepic.png" alt="Company logo">
+            <img src="my profilepic.png" alt="Company logo" width="300" height="300">
         </header>
         <nav>
             <ul>
@@ -37,6 +37,116 @@
                 <p>We have added new itemms in our menu and we would like you to try it and review it</p>
             </article>
         </main>
+        <section>
+            <h1>INPUT TYPES</h1>
+            <div>
+            <button onclick="alert('Hi there Anik')">
+                <img src="my profilepic.png" 
+                alt="Submit the Form" height="60" width="60">     
+            </button>
+            </div>
+            <br>
+            <div>
+            <input type="checkbox" name="dog" id="dog" value="Dog">
+            <label for="dog">I Like Dogs</label>
+            <input type="checkbox" name="cat" id="cat" value="Cat">
+            <label for="cat">I Like Cats</label>
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="light" id="theme" value="theme">
+                <label for="">Light</label>
+                <input type="radio" name="dark" id="theme" value="">
+                <label for="">Dark</label>
+            </div>
+            <br>
+            <div>
+                <form action="myserver.com" method="post">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <br>
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname">
+            </div>
+            <br>
+            <div>
+                <label for="pwd">Password:</label>
+                <input type="password" name="pw'" id="pwd">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <br>
+            <div>
+                <label for="birthdaytime">Birthday (date and time): </label>
+                <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+            </div>
+            <br>
+            <div>
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="myfile">Select a file: </label>
+                <input type="file" name="myfile" id="myfile">
+            </div>
+            <br>
+            <div>
+                <input type="hidden" name="custid" value="2233">
+            </div>
+            <br>
+            <div>
+                <input type="image" src="my profilepic.png" alt="My profile Pic" width="40" height="40">
+            </div>
+            <br>
+            <div>
+                <input type="number" name="quantity" id="quantity" min="1" max="5">
+            </div>
+            <br>
+            <div>
+                <label for="volume">Volume: </label>
+                <input type="range" name="volume" id="volume" min="0" max="10">
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Reset">
+            </div>
+            <br>
+            <div>
+                <label for="gsearch">Search in Google:</label>
+                <input type="search" name="gsearch" id="gsearch">
+            </div>
+            <br>
+            <div>
+                <label for="appt">Select a time: </label>
+                <input type="time" name="appt" id="appt">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" name="phone" id="phone" pattern="[+]{0-9}{11,14}">
+            </div>
+            <br>
+            <div>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" name="homepage" id="homepage">
+            </div>
+            <br>
+            <div>
+                <label for="week">Select a Week:</label>
+                <input type="week" name="week" id="week">
+            </div>
+            <br>
+            <div>
+                <label for="bdaymonth">Birthday (month and year): </label>
+                <input type="month" name="bdaymonth" id="bdaymonth" min="1980-01" value="2000-1">
+            </div>
+        </section>
         <footer>
             <p>Copyright THE ANIK</p>
         </footer>
