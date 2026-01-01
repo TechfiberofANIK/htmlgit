@@ -14,6 +14,11 @@
         <meta property="og:Content-Type" content="website">
         <meta property="og:url" content="https://www.google.com/search?q=anik+khokhar&rlz=1C1ONGR_enIN1131IN1132&oq=Anik+khokh&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRhAMgYIAhBFGDkyBggDECMYJzINCAQQABiGAxiABBiKBTIGCAUQRRg9MgYIBhBFGEEyBggHEEUYPNIBCDYwMDlqMGo3qAIIsAIB8QX2BKlQ_R2yZfEF9gSpUP0dsmU&sourceid=chrome&ie=UTF-8">
         <meta property="og:image" content="my profilepic.png">
+        <style>
+            input:focus:invalid{
+                border: 2px solid red;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -36,7 +41,7 @@
                 <h2>Our New Menu</h2>
                 <p>We have added new itemms in our menu and we would like you to try it and review it</p>
             </article>
-        </main>
+        
         <section>
             <h1>INPUT TYPES</h1>
             <div>
@@ -147,6 +152,40 @@
                 <input type="month" name="bdaymonth" id="bdaymonth" min="1980-01" value="2000-1">
             </div>
         </section>
+        <br>
+        <hr>
+        <section>
+            
+                <h1>Sign up</h1>
+                <form action="">
+                    <div>
+                        <label for="user_first_name">First Name</label><br>
+                        <input type="text" name="user_first_name" id="user_first_name" minlength="3" maxlength="10" required>
+                    </div>
+                    <div>
+                        <label for="user_last_name">Last Name</label><br>
+                        <input type="text" name="user_last_name" id="user_last_name">
+                    </div>
+                    <div>
+                        <label for="user_email">Email</label><br>
+                        <input type="email" name="user_email" id="user_email">
+                    </div>
+                    <div>
+                        <label for="user_password">Enter Password</label><br>
+                        <input type="password" name="user_password" id="user_password">
+                    </div>
+                    <div>
+                        <label for="user_confirm_password">Confirm Password</label><br>
+                        <input type="password" name="user_confirm_password" id="user_confirm_password">
+                    </div>
+                    <div>
+                        <button type="submit">Sign Up</button>
+                    </div>
+                
+                </form>
+            
+        </section>
+        </main>
         <footer>
             <p>Copyright THE ANIK</p>
         </footer>
