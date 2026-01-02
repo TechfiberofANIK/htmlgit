@@ -67,6 +67,7 @@
         <section>
             <form action="" method="post">
                 <fieldset id="size">
+                    <legend>Group Size</legend>
                     <label>
                         <input type="radio" name="size" id="size" value="2"> 2-person Table
                     </label>
@@ -80,6 +81,7 @@
                     
                 </fieldset>
                 <fieldset id="location">
+                    <legend>Hotel Location</legend>
                     <label>
                         <input type="radio" name="location" id="location" value="indoors" checked> Indoor
                     </label>
@@ -99,25 +101,165 @@
         <br>
         <section>
             <h1>Book a Table</h1>
-            <div>
-                <label for="booking_date">Booking Date</label>
-                <input type="date" name="booking_date" id="booking_date">
-            </div>
-            <div>
-                <label for="booking_people">Number of People</label>
-                <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
-                <output>4</output>
-            </div>
-            <div>
-                <label for="booking_location">Location</label>
-                <input id="booking_location" name="booking_location" list="locations">
-                <datalist id="locations">
-                    <option value="Downtown"></option>
-                    <option value="Uptown"></option>
+            <form action="login" method="post">
+                <div>
+                    <label for="booking_date">Booking Date</label>
+                    <input type="date" name="booking_date" id="booking_date">
+                </div>
+                <div>
+                    <label for="booking_people">Number of People</label>
+                    <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                    <output>4</output>
+                </div>
+                <div>
+                    <label for="booking_location">Location</label>
+                    <input id="booking_location" name="booking_location" list="locations">
+                    <datalist id="locations">
+                        <option value="Downtown"></option>
+                        <option value="Uptown"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <button type="button" onclick="alert('you just clicked!')">Click ME!!</button>
+                </div>
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <section>
+            <fieldset> 
+                <legend>Personal Info</legend> 
+                <label for="fname">First name:</label><br> 
+                <input type="text" id="fname" name="fname" value="John"><br> 
+                <label for="lname">Last name:</label><br> 
+                <input type="text" id="lname" name="lname" value="Doe"><br> 
+            </fieldset> 
+
+            <fieldset> 
+                <legend>Qualificaiton</legend> 
+                <label for="pdegree">Primary degree:</label><br> 
+                <input type="text" id="pdegree" name="degree" value="Masters"><br> 
+                <label for="fos">Last name:</label><br> 
+                <input type="text" id="fos" name="field" value="Psychology"><br> 
+            </fieldset> 
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <section>
+            <form action="/my_action_page">
+                
+                <label for="flowers">Favourite flower:</label><br> 
+                <input list="flowers" name="flowers"> 
+                <datalist id="flowers"> 
+                    <option value="Rose"> 
+                    <option value="Lily"> 
+                    <option value="Tulip"> 
+                    <option value="Daffodil"> 
+                    <option value="Orchid"> 
+                </datalist> 
+                 
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <section>
+            <form action="">
+                
+                <label for="flowers1">Favourite flower:</label><br> 
+                 
+                <select id="flowers1"> 
+                    <option value="Rose">Rose</option>
+                    <option value="Lily">Lily</option>
+                    <option value="Tulip">Tulip</option>
+                    <option value="Daffodil">Daffodil</option>
+                    <option value="Orchid">Orchid</option>
+                </select> 
+                 
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+            <section>
+                <div>
+                    <video src="C:\Users\FLASH\Desktop\goa\videos\demo.mp4" type="video/mp4" width="800px" controls muted>
+
+                    </video>
+                    <br>
+                    <br>
+                    <audio src="C:\Users\FLASH\Downloads\0 DJ NYK - Bollywood Sunset Mix (Italy) at Vernazza, Cinque Terre _ 2023 [vMpaSBYh5pA].mp3" controls></audio>
+                </div>
+                <div>
+                    <audio controls>
+                        <source src="C:\Users\FLASH\Downloads\0 DJ NYK - Bollywood Sunset Mix (Italy) at Vernazza, Cinque Terre _ 2023 [vMpaSBYh5pA].mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        <hr>
+        <br>
+        <br>
+        <section>
+            <form action="">
+                <div>
+                <label for="rating">Rate the Video</label>
+                <input type="range" name="rating" id="rating" min="1" max="5" list="ratings">
+                <datalist id="rating">
+                    <option value="1" label="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5" label="5"></option>
                 </datalist>
+                </div>
+                <button type="submit">Submit Rating</button>
+            </form>
+        </section>
+        <br>
+        <br>
+        <hr>
+        <section>
+            <div>
+                <img src="my profilepic.png" alt="my pic" width="300px">
+                <figcaption>Me Sitting on the Beach of Goa!!</figcaption>
             </div>
         </section>
+        <hr>
+        <br>
+        <br>
+        <section>
+            <div>
+                <iframe src="practical1.html" frameborder="1" width="300px" height="600px" allow="camera 'none'; microphone 'none' " sandbox="" ></iframe>
+                <iframe src="prac2.html" frameborder="1" width="300px" height="600px" allow="camera 'none'; microphone 'none' " sandbox="" ></iframe>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <hr>
+
+
         </main>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
         <footer>
             <p>Copyright THE ANIK</p>
         </footer>
