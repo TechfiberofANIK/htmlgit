@@ -1,0 +1,93 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 10vh;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    
+}
+.box3{
+   
+    font-family: Arial;
+background-color: blanchedalmond;
+align-self: center;
+flex: 1 0 auto;
+}
+
+.container{
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    justify-content: end;
+    
+}
+
+.icon{
+    padding: 0.5rem;
+}
+.searchbox{
+    border: 0;
+    flex: 1;
+}
+.searchButton{
+    color: white;
+    background: #0f4a8a;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.navMenu{
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: stretch;
+    
+}
+.navMenu li{
+    list-style-type: none;
+    
+}
+
+.navMenu a{
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navMenu a:hover{
+    background-color: lightsteelblue;
+}
+
+img{
+    border: 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px;
+}
+.item
+{
+    margin: 3px;
+}
+

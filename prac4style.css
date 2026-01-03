@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+}
+.row.lable{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasta{
+    background-color: yellow;
+}
+
+.pizza{
+    background-color: orange;
+}
+.burger{
+    background-color: lightsalmon;
+}
+
+.columns{
+    display: flex;
+    height: 400px;
+    max-width: 300px;
+    align-items: stretch;
+    border: 1px solid black;
+}
+
+.hcontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+  
+}
+.bar{
+    border-right: 1px solid white;
+
+}
+
+.female{
+    background: yellow;
+}
+.male{
+    background: black;
+    align-items:;
+}
