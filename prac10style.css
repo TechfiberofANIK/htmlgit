@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@keyframes bounce{
+    from{
+        transform: translate3d(0,92vh,0);
+    }
+    to{
+        transform: translate3d(250px,1vh,0);
+    }
+}
+#ball1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    position: fixed;
+    animation: bounce 1s linear infinite alternate,
+    bounce-b 3s ease infinite alternate;
+}
+#ball2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(219, 53, 53);
+    position: fixed;
+    animation: bounce 2s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#ball3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(224, 22, 22);
+    position: fixed;
+    animation: bounce 3s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#ball4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(242, 0, 0);
+    position: fixed;
+    animation: bounce 4s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
